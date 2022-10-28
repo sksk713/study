@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Lambda;
 
 public class LambdaExample {
     // 1. 익명 클래스 활용하기
