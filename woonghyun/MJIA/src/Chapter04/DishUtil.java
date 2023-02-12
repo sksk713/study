@@ -6,7 +6,7 @@ import java.util.List;
 
 public class DishUtil {
 
-    static List<Dish> getExample() {
+    public static List<Dish> getExample() {
         List<Dish> menu = Arrays.asList(
                 new Dish("pork", false, 800, Dish.Type.MEAT),
                 new Dish("beef", false, 700, Dish.Type.MEAT),

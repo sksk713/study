@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * 01.
+ */
 public class FindLowCalories {
 
     public static void main(String[] args) {
