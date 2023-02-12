@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 /**
  * 03.
  */
-public class FindThreeHighCaloricDishNames {
+public class C_FindThreeHighCaloricDishNames {
     public static void main(String[] args) {
         List<Dish> menu = DishUtil.getExample();
 

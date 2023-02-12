@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 01.
  */
-public class FindLowCalories {
+public class A_FindLowCalories {
 
     public static void main(String[] args) {
 

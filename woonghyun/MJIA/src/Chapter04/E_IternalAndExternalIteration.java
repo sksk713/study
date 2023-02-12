@@ -5,12 +5,11 @@ import static java.util.stream.Collectors.toList;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * 05.
  */
-public class IternalAndExternalIteration {
+public class E_IternalAndExternalIteration {
     public static void main(String[] args) {
         /**
          * External Iteration.

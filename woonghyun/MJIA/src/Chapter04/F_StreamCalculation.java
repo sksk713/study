@@ -4,7 +4,10 @@ import static java.util.stream.Collectors.toList;
 
 import java.util.List;
 
-public class StreamCalculation {
+/**
+ * 06.
+ */
+public class F_StreamCalculation {
     public static void main(String[] args) {
         /**
          * 스트림 연산은 크게 2가지로 구분할 수 있다.

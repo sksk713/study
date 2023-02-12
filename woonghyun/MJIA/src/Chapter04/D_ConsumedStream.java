@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * 04.
  */
-public class ConsumedStream {
+public class D_ConsumedStream {
     public static void main(String[] args) {
         List<String> title = Arrays.asList("Java8", "In", "Action");
         Stream<String> s = title.stream();

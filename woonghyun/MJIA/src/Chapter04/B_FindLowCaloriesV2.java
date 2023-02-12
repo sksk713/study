@@ -8,7 +8,7 @@ import static java.util.stream.Collectors.toList;
 /**
  * 02.
  */
-public class FindLowCaloriesV2 {
+public class B_FindLowCaloriesV2 {
     public static void main(String[] args) {
         List<Dish> menu = DishUtil.getExample();
 
