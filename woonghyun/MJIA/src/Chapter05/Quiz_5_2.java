@@ -36,7 +36,20 @@ public class Quiz_5_2 {
 
         // Internal Iteration을 이용한 풀이법
         number1.stream()
-                .forEach(n -> );
+                .flatMap(i -> number2.stream()
+                        .map(j -> new int[] {i, j})
+                )
+                .collect(Collectors.toList());
 
+        /**
+         * 이전 예제에서 합이 3으로 나누어 떨어지는 쌍만 반환하려면 어떻게 해야할까?
+         * 예를 들어, (2,4), (3,3)을 반환해야 한다.
+         */
+        List<int[]> result3 = number1.stream()
+                .flatMap(i -> number2.stream()
+                        .filter(j -> (i + j) % 3 == 0)
+                        .map(j -> new int[] {i, j})
+                )
+                .collect(Collectors.toList());
     }
 }
